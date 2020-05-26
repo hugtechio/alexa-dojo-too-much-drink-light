@@ -1,0 +1,39 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "飲みすぎライト",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "TooMuchDrinkIntent",
+                    "slots": [],
+                    "samples": [
+                        "おやすみ",
+                        "飲みすぎた",
+                        "もう動きたくない",
+                        "もう動けない",
+                        "しんどい",
+                        "消して",
+                        "電気",
+                        "もうアカン",
+                        "休ませてください",
+                        "もう無理",
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+  }
+  
